@@ -31,7 +31,6 @@ public class Activity {
         this.name = name;
         this.state = state;
         this.iteration = iteration;
-
         this.iteration.addActivity(this);
     }
 
@@ -43,9 +42,10 @@ public class Activity {
     public boolean isActive() {
         boolean resultado = false;
         if (this.state == PENDING_STATE || this.state == ACTIVE_STATE) {
+            resultado = true;
 
         }
-        return true;
+        return resultado;
     }
 
 }

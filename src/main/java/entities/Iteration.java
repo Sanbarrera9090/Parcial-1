@@ -29,7 +29,7 @@ public class Iteration {
 
     public int countOpenActivities() {
         int resultado = 0;
-        for(int i = 0 ; o < activities.size(); i++){
+        for(int i = 0 ; i < activities.size(); i++){
             if(activities.get(i).isActive());{
                 resultado++;
             }
