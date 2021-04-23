@@ -11,8 +11,7 @@ public class Activity {
     public static final String CANCELED_STATE = "canceled";
 
     /**
-    *Creacion de atributos
-    *
+     * Creacion de atributos
      */
     private String name;
     private String state;
@@ -23,6 +22,7 @@ public class Activity {
 
     /**
      * Constructor
+     *
      * @param name
      * @param state
      * @param iteration
@@ -41,7 +41,11 @@ public class Activity {
      * @return true if the activity is in state pending or active, otherwise return false.
      */
     public boolean isActive() {
-        return false;
+        boolean resultado = false;
+        if (this.state == PENDING_STATE || this.state == ACTIVE_STATE) {
+
+        }
+        return true;
     }
 
 }
