@@ -84,4 +84,25 @@ $ zip -r APELLIDO.NOMBRE.zip .
 6. IMPORTANTE!. Conserve una copia de la carpeta y del archivo .ZIP.
 
 7. Haga commits recurrentes para verificar su progreso, UN PARCIAL SOLUCIONADO EN 1 SOLO COMMIT SE CONSIDERA COPIA.
- 
+
+
+
+##SOLUCION
+
+##IV CONCEPTOS
+1.   Encapsulamiento: Al utilizar el encapsulamiento definimos los atributos y funciones de una clase, esto nos ayuda a definir distintas clases de manera mas ordenada. (Basicamente guardamos todo lo que necesitemos en una sola unidad logica).
+
+     1.1 Encapsulamiento obvio: Es la clase.
+
+     1.2 Encapsulamiento preciso: Es/son los metodos.
+
+2.   Ocultacion de informacion: La ocultacion de informacion nos sirve para definir si podemos o no acceder a un metodo o atributo desde otra clase. tenemos 3 modificadores de acceso.
+
+     Public: Puede ser accedido libremente por cualquier otro objeto apuntandole a la clase/
+
+     Private: Es oculto y ageno a cualquier otra clase que quisiera interactuar con ellos
+
+     Protected:  Solo las clases del mismo paquete pueden acceder a metodos y atributos del mismo, cuando aplicamos herencia y queremos que los metodos y atributos puedan interactuar con la super clase definimos este modificador de acceso.
+
+     Para aplicarla en java usamos las palabras reservadas Public, private y protected
+
