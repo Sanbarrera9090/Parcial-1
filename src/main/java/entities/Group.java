@@ -12,7 +12,7 @@ public class Group {
     private int id;
     private LocalDate createdAt;
     private String area;
-    private Student student;
+    private Student lider;
     private ArrayList<Student> miembros;
     private List<Project> projects;
 
