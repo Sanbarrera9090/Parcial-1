@@ -12,7 +12,7 @@ public class Summary {
     private int openActivities;
     private int closeActivities;
 
-    public Summary(int activeProjects, LocalDate date){
+    public Summary(int activeProjects, LocalDate date) {
         this.activeProjects = activeProjects;
         this.date = date;
     }

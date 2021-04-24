@@ -25,10 +25,10 @@ public class Group {
         this.projects.add(plan);
     }
 
-    public int countActiveProjects(){
+    public int countActiveProjects() {
         int resultado = 0;
-        for (int i = 0; i< projects.size(); i++){
-            if(projects.get(i).isActive()){
+        for (int i = 0; i < projects.size(); i++) {
+            if (projects.get(i).isActive()) {
                 resultado++;
             }
         }

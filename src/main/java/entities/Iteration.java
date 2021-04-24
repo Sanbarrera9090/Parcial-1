@@ -29,8 +29,9 @@ public class Iteration {
 
     public int countOpenActivities() {
         int resultado = 0;
-        for(int i = 0 ; i < activities.size(); i++){
-            if(activities.get(i).isActive());{
+        for (int i = 0; i < activities.size(); i++) {
+            if (activities.get(i).isActive()) ;
+            {
                 resultado++;
             }
         }
